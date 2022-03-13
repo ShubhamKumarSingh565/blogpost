@@ -1,0 +1,29 @@
+<!-- <h1>Hello World Page!</h1> -->
+
+{% extends 'base.htm' %}
+
+
+{% block head%} 
+<title>Home Page</title>
+{% endblock %}
+
+
+
+
+{% block body%}
+    <h1>This is Home Page</h1>
+    <div>
+        <div class="bg-light p-5 rounded">
+          <div class="col-sm-8 mx-auto">
+            <h1>Welcome</h1>
+            <p>Welcome to Shubham Blog!. The place where you find everythings about computer science and related stuff. You should also learn different framework like flask, django of python and database like- SQLAchemy(which is built-in) too.</p>
+            <p>Go visit at our website <a href="#">codewithme.com</a> to check out more stuff beyound Blog Post.</p>
+            <p>
+              <a class="btn btn-primary" href="/posts" role="button">Go to Posts &raquo;</a>
+            </p>
+          </div>
+        </div>
+    </div>
+{% endblock %}
+
+
